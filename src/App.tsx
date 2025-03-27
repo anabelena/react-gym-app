@@ -1,12 +1,11 @@
-
-import './App.css'
+import NavBar from "@/scenes/navbar";
 
 function App() {
 
   return (
-    <>
-      <h1> Gym App </h1>
-    </>
+    <div className="app bg-gray-50">
+     Gym App 
+    </div>
   )
 }
 
