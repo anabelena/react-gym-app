@@ -11,7 +11,7 @@ const NavBar = (props: Props) => {
     <nav>
       <div
         className={`${flexBetween} fixed top-0 z-30 w-full py-6`}>
-            <div>
+            <div className={`${flexBetween} mx-auto w-5/6`}>
                 <img src={Logo} alt="" />
             </div>
 
