@@ -4,3 +4,4 @@ export enum SelectedPage {
   OurClasses = "ourclasses",
   ContactUs = "contactus",
 }
+
