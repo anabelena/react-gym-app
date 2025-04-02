@@ -7,7 +7,7 @@ import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { div } from "framer-motion/client";
+
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -24,12 +24,12 @@ const Home = ({ setSelectedPage }: Props) => {
         <div className="z-10 mt-32 md:basis-3/5">
           {/* HEADING */}
           <div className="md:-mt-20">
-            <div>
-              <div>
+            <div className="relative">
+              <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                 <img src={HomePageText} alt="home-page-text" />
               </div>
             </div>
-            <p>
+            <p className="mt-8 text-sm ">
               Welcome to your ultimate fitness companion! Track your workouts,
               monitor your progress, and stay motivated with powerful tools
               designed to help you push your limits and achieve your goals. Your
@@ -37,7 +37,7 @@ const Home = ({ setSelectedPage }: Props) => {
             </p>
           </div>
           {/* ACTIONS */}
-          <div>
+          <div className="mt-8 flex items-center gap-8">
             <ActionButton setSelectedPage={setSelectedPage}>
               Join now
             </ActionButton>
@@ -51,7 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
           </div>
         </div>
         {/* IMAGE */}
-        <div>
+        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img src={HomePageGraphic} alt="home-page-graphic" />
         </div>
       </div>
