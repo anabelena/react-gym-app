@@ -14,30 +14,30 @@ This project is a
 - ⚡ **Vite / Next.js** (if applicable)
 - 📦 **React Router**
 
-## Installation 💻
+## 📦 Installation and Usage
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/anabelena/team-component-supabase.git
+   ```sh
+   git clone https://github.com/anabelena/react-gym-app.git
    ```
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd team-component-supabase
+   ```sh
+   cd react-gym-app
    ```
 
-3. Install the dependencies:
+3. Install dependencies:
 
-   ```bash
+   ```sh
    npm install
    ```
 
-4. Run the development server:
+4. Start the development server:
 
-   ```bash
-   npm start
+   ```sh
+   npm run dev
    ```
 
 ## Screenshots 📷
