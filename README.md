@@ -2,9 +2,7 @@
 
 ## Description 📝
 
-This project is a
-
-## Features 🛠️
+React Gym App is a front-end project built with React 19 and Tailwind CSS v4, designed as a foundation for developing fitness-related applications. 🚀
 
 ## 🚀 Technologies Used
 
