@@ -6,10 +6,13 @@ This project is a
 
 ## Features 🛠️
 
-## Technologies Used 👩🏻‍💻
+## 🚀 Technologies Used
 
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **JavaScript (ES6)**: Programming language for web development.
+- ⚛️ **React 19**
+- 🎨 **Tailwind CSS v4**
+- 🔥 **Firebase / Supabase** (if applicable)
+- ⚡ **Vite / Next.js** (if applicable)
+- 📦 **React Router**
 
 ## Installation 💻
 
