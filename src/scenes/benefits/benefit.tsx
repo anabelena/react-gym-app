@@ -1,6 +1,5 @@
 import { SelectedPage } from "@/shared/types";
 import { JSX } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 type Props = {
   icon: JSX.Element;
@@ -20,13 +19,13 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
 
       <h4 className="font-bold "> {title} </h4>
       <p className="my-3"> {description}</p>
-      <AnchorLink
+      <a
         className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
         onClick={() => setSelectedPage(SelectedPage.ContactUs)}
         href={`#${SelectedPage.ContactUs}`}
       >
         <p>Learn more</p>
-      </AnchorLink>
+      </a>
     </div>
   );
 };

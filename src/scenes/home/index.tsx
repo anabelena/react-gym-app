@@ -6,7 +6,7 @@ import HomePageGraphic from "@/assets/HomePageGraphic.png";
 import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import { motion } from "framer-motion";
 
 type Props = {
@@ -63,13 +63,13 @@ const Home = ({ setSelectedPage }: Props) => {
             <ActionButton setSelectedPage={setSelectedPage}>
               Join now
             </ActionButton>
-            <AnchorLink
+            <a
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.ContactUs)}
               href={`#${SelectedPage.ContactUs}`}
             >
               <p>Learn more</p>
-            </AnchorLink>
+            </a>
           </motion.div>
         </div>
         {/* IMAGE */}
