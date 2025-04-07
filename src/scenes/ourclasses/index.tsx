@@ -6,6 +6,7 @@ import image4 from "@/assets/image4.png";
 import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
+import HText from "@/shared/HText";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -17,6 +18,10 @@ function OurClasses({ setSelectedPage }: Props) {
       <motion.div
         // calling to setSelectedPage to highligh navigation menu option
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
+        
+      >
+        <motion.div
+        className="mx-auto w-5/6"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
@@ -25,8 +30,14 @@ function OurClasses({ setSelectedPage }: Props) {
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
         }}
-      >
-        HOLA
+        >
+          <div className="md:w-3/5">
+             <HText> OUR CLASSES </HText>
+             <p className="py-5 text-balance">Discover the perfect workout for your goals and lifestyle. Whether you're into high-intensity training, strength building, mind-body balance, or group fun, we've got a class for you. From HIIT and CrossFit to Yoga and Pilates, our expert trainers guide you through dynamic sessions that challenge, motivate, and transform. Join the energy—your fitness journey starts here.</p>
+          </div>
+        </motion.div>
+       
+
       </motion.div>
     </section>
   );
