@@ -3,6 +3,7 @@ import Home from "@/scenes/home";
 import Benefits from "@/scenes/benefits";
 import OurClasses from "./scenes/ourclasses";
 import ContactUs from "./scenes/contactus";
+import Footer from "./scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "./shared/types";
 
@@ -47,6 +48,7 @@ export default function App() {
      <ContactUs
      setSelectedPage={setSelectedPage}
      />
+     <Footer/>
     </div>
   );
 }
