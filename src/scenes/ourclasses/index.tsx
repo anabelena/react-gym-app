@@ -42,6 +42,7 @@ const classes:Array<ClassType> = [
   },
   {
     name: "Training Classes",
+    description: "Build strength, boost endurance, and sculpt lean muscle with our weight training classes. Designed for all fitness levels, these sessions focus on proper form, progressive overload, and technique using free weights, machines, and bodyweight resistance. Whether you're lifting for the first time or leveling up your PRs, our expert coaches are here to guide, challenge, and push you to new limits.",
     image: image6,
   },
 ];
@@ -51,8 +52,9 @@ type Props = {
 };
 
 function OurClasses({ setSelectedPage }: Props) {
+
   return (
-    <section className="w-full bg-primary-100 py-40 ">
+    <section className="w-full bg-primary-100 py-40">
       <motion.div
         // calling to setSelectedPage to highligh navigation menu option
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
@@ -68,7 +70,7 @@ function OurClasses({ setSelectedPage }: Props) {
             visible: { opacity: 1, x: 0},
           }}
         >
-          <div className="md:w-3/5">
+          <div className="md:w-3/5 mb-8">
             <HText> OUR CLASSES </HText>
             <p className="py-5 text-balance">
               Discover the perfect workout for your goals and lifestyle. Whether
@@ -81,7 +83,8 @@ function OurClasses({ setSelectedPage }: Props) {
           </div>
         </motion.div>
         {/* SIDE SCROLLING */}
-        <div className="mt-1 h-[353px] w-full overflow-x-auto overflow-y-hidden border border-black">
+        {/* scroll on X but not on Y  */}
+        <div className="mt-1 h-[353px] w-full overflow-x-auto overflow-y-hidden">
           <ul className="w-[2800px] whitespace-nowrap">
             {classes.map((item:ClassType,index)=> (
               <Class
