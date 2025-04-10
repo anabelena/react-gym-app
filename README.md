@@ -2,15 +2,13 @@
 
 ## Description 📝
 
-React Gym App is a front-end project built with React 19 and Tailwind CSS v4, designed as a foundation for developing fitness-related applications. 🚀
+A simple and responsive single-page gym UI built with React 19, Tailwind CSS v3, and Vite. This project is a frontend-only prototype focused on layout, design, and modern component structure. Ideal for showcasing frontend skills without backend complexity.
 
 ## 🚀 Technologies Used
 
 - ⚛️ **React 19**
-- 🎨 **Tailwind CSS v4**
-- 🔥 **Firebase / Supabase** (if applicable)
-- ⚡ **Vite / Next.js** (if applicable)
-- 📦 **React Router**
+- 🎨 **Tailwind CSS v3**
+- ⚡️ **Vite**
 
 ## 📦 Installation and Usage
 
@@ -40,14 +38,21 @@ React Gym App is a front-end project built with React 19 and Tailwind CSS v4, de
 
 ## Screenshots 📷
 
-## Contributing 👇🏼
+### 🖥️ Desktop view
+![Desktop Screenshot](./screenshots/desktop.png)
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Create a new Pull Request.
+### 📱 Mobile view
+![Mobile Screenshot](./screenshots/mobile.png)
+
+## 🌐 Live Demo
+
+👉 [react-gym-app.pages.dev](https://react-gym-app.pages.dev)
+
+## Project purpose 💡
+
+This project was built as a visual and technical prototype for a gym/fitness-themed application. It focuses on frontend UI/UX using modern tools and is perfect for portfolio demonstration.
+There’s no routing or backend integration — all components are rendered through the App.tsx root file.
 
 ## Contact 📧
 
-You can find me on GitHub: [anabelena](https://github.com/anabelena)
+Developed by [anabelena](https://github.com/anabelena)
