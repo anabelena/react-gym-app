@@ -2,7 +2,7 @@
 
 ## Description 📝
 
-A simple and responsive single-page gym UI built with React 19, Tailwind CSS v3, and Vite. This project is a frontend-only prototype focused on layout, design, and modern component structure. Ideal for showcasing frontend skills without backend complexity.
+A responsive single-page gym UI built with React 19, Tailwind CSS v3, and Vite. This project is a frontend-only prototype focused on layout, design, and modern component structure.
 
 ## 🚀 Technologies Used
 
