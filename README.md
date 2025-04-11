@@ -41,11 +41,11 @@ A simple and responsive single-page gym UI built with React 19, Tailwind CSS v3,
 
 ### 🖥️ Desktop view
 
-![Desktop Screenshot](./screenshots/desktop.jpeg)
+![Desktop Screenshot](./public/screenshots/desktop.jpeg)
 
 ### 📱 Mobile view
 
-![Mobile Screenshot](./screenshots/mobile.jpeg)
+![Mobile Screenshot](./public/screenshots/mobile.jpeg)
 
 ## 🌐 Live Demo
 
