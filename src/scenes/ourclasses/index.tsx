@@ -54,7 +54,7 @@ type Props = {
 function OurClasses({ setSelectedPage }: Props) {
 
   return (
-    <section className="w-full bg-primary-100 py-40">
+    <section id="ourclasses" className="w-full bg-primary-100 py-40">
       <motion.div
         // calling to setSelectedPage to highligh navigation menu option
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
