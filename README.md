@@ -1,4 +1,4 @@
-# React Gym App 🚀
+# React Typescript Gym Website 🚀
 
 ## Description 📝
 
@@ -7,7 +7,8 @@ A simple and responsive single-page gym UI built with React 19, Tailwind CSS v3,
 ## 🚀 Technologies Used
 
 - ⚛️ **React 19**
-- 🎨 **Tailwind CSS v3**
+- 💻 **Typescript**
+- 🎨 **Tailwind CSS v3.4**
 - ⚡️ **Vite**
 
 ## 📦 Installation and Usage
@@ -39,19 +40,16 @@ A simple and responsive single-page gym UI built with React 19, Tailwind CSS v3,
 ## Screenshots 📷
 
 ### 🖥️ Desktop view
-![Desktop Screenshot](./screenshots/desktop.png)
+
+![Desktop Screenshot](./screenshots/desktop.jpeg)
 
 ### 📱 Mobile view
-![Mobile Screenshot](./screenshots/mobile.png)
+
+![Mobile Screenshot](./screenshots/mobile.jpeg)
 
 ## 🌐 Live Demo
 
 👉 [react-gym-app.pages.dev](https://react-gym-app.pages.dev)
-
-## Project purpose 💡
-
-This project was built as a visual and technical prototype for a gym/fitness-themed application. It focuses on frontend UI/UX using modern tools and is perfect for portfolio demonstration.
-There’s no routing or backend integration — all components are rendered through the App.tsx root file.
 
 ## Contact 📧
 
